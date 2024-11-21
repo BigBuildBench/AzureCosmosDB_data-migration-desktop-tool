@@ -1,0 +1,243 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cosmos.DataTransfer.Core", "Core\Cosmos.DataTransfer.Core\Cosmos.DataTransfer.Core.csproj", "{A164C7E5-E6FB-43B3-85B1-C67FFDFE330A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cosmos.DataTransfer.Interfaces", "Interfaces\Cosmos.DataTransfer.Interfaces\Cosmos.DataTransfer.Interfaces.csproj", "{2A3EE681-C7CD-4062-913B-737E6265CEF7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cosmos.DataTransfer.Core.UnitTests", "Core\Cosmos.DataTransfer.Core.UnitTests\Cosmos.DataTransfer.Core.UnitTests.csproj", "{7339C831-B668-4CF9-951C-E2F4AE951996}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extensions", "Extensions", "{A8A1CEAB-2D82-460C-9B86-74ABD17CD201}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cosmos.DataTransfer.JsonExtension", "Extensions\Json\Cosmos.DataTransfer.JsonExtension\Cosmos.DataTransfer.JsonExtension.csproj", "{55355690-D898-4C75-818A-72655DB4495A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cosmos.DataTransfer.CosmosExtension", "Extensions\Cosmos\Cosmos.DataTransfer.CosmosExtension\Cosmos.DataTransfer.CosmosExtension.csproj", "{688F9479-06FF-4B8F-9294-369D549C78FD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cosmos.DataTransfer.AzureTableAPIExtension", "Extensions\AzureTableAPI\Cosmos.DataTransfer.AzureTableAPIExtension\Cosmos.DataTransfer.AzureTableAPIExtension.csproj", "{CA03961C-4330-4ED9-963A-3B63FBC08ABB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cosmos", "Cosmos", "{D0475879-F47F-4D12-9A43-812043CFFD22}"
+	ProjectSection(SolutionItems) = preProject
+		Extensions\Cosmos\README.md = Extensions\Cosmos\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Json", "Json", "{84E51D21-FA45-4CCB-94BB-6B6066749A4A}"
+	ProjectSection(SolutionItems) = preProject
+		Extensions\Json\README.md = Extensions\Json\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AzureTableAPI", "AzureTableAPI", "{CB41F880-D0A5-42C1-9571-479CF7E54D82}"
+	ProjectSection(SolutionItems) = preProject
+		Extensions\AzureTableAPI\README.md = Extensions\AzureTableAPI\README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cosmos.DataTransfer.AzureTableAPIExtension.UnitTests", "Extensions\AzureTableAPI\Cosmos.DataTransfer.AzureTableAPIExtension.UnitTests\Cosmos.DataTransfer.AzureTableAPIExtension.UnitTests.csproj", "{F31FADBA-BC78-4839-A9F5-8861695EC95E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mongo", "Mongo", "{F18E789A-D32D-48D3-B75F-1196D7215F74}"
+	ProjectSection(SolutionItems) = preProject
+		Extensions\Mongo\README.md = Extensions\Mongo\README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cosmos.DataTransfer.MongoVectorExtension", "Extensions\Mongo\Cosmos.DataTransfer.MongoVectorExtension\Cosmos.DataTransfer.MongoVectorExtension.csproj", "{F6EAC33B-9F7D-433B-9328-622FB8938C24}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cosmos.DataTransfer.JsonExtension.UnitTests", "Extensions\Json\Cosmos.DataTransfer.JsonExtension.UnitTests\Cosmos.DataTransfer.JsonExtension.UnitTests.csproj", "{ED1E375E-A5A3-47EA-A7D5-07344C7E152F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cosmos.DataTransfer.CosmosExtension.UnitTests", "Extensions\Cosmos\Cosmos.DataTransfer.CosmosExtension.UnitTests\Cosmos.DataTransfer.CosmosExtension.UnitTests.csproj", "{C7A3910D-A7F6-4767-9A7A-19CFA4CCB7A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SqlServer", "SqlServer", "{2F075279-E8B0-4A6E-A8D9-2058B7DEC671}"
+	ProjectSection(SolutionItems) = preProject
+		Extensions\SqlServer\README.md = Extensions\SqlServer\README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cosmos.DataTransfer.SqlServerExtension", "Extensions\SqlServer\Cosmos.DataTransfer.SqlServerExtension\Cosmos.DataTransfer.SqlServerExtension.csproj", "{7A020621-77E6-4DD1-B230-50A46B4BB2B1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cosmos.DataTransfer.SqlServerExtension.UnitTests", "Extensions\SqlServer\Cosmos.DataTransfer.SqlServerExtension.UnitTests\Cosmos.DataTransfer.SqlServerExtension.UnitTests.csproj", "{3E4C4ABF-D8C2-4997-A719-E756483C8D63}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Parquet", "Parquet", "{2BD63BEE-CEE8-4FF3-8A2E-373D9F4E2FE8}"
+	ProjectSection(SolutionItems) = preProject
+		Extensions\Parquet\README.md = Extensions\Parquet\README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cosmos.DataTransfer.ParquetExtension", "Extensions\Parquet\Cosmos.DataTransfer.ParquetExtension\Cosmos.DataTransfer.ParquetExtension.csproj", "{B83FEBC7-08B6-4C25-831A-EA0C08794F67}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cosmos.DataTransfer.Common", "Interfaces\Cosmos.DataTransfer.Common\Cosmos.DataTransfer.Common.csproj", "{0FAD9D89-2E41-4D65-8440-5C01885D9292}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AzureBlob", "AzureBlob", "{9627A42A-BEB0-4A39-B49C-C3C6D54E705A}"
+	ProjectSection(SolutionItems) = preProject
+		Extensions\AzureBlob\README.md = Extensions\AzureBlob\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AwsS3", "AwsS3", "{502197E4-F554-4B5B-9235-FBFE7E49EBEF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cosmos.DataTransfer.AwsS3Storage", "Extensions\AwsS3\Cosmos.DataTransfer.AwsS3Storage\Cosmos.DataTransfer.AwsS3Storage.csproj", "{8BA59E9C-0B45-426F-A672-61D40C3C4FB7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cosmos.DataTransfer.AzureBlobStorage", "Extensions\AzureBlob\Cosmos.DataTransfer.AzureBlobStorage\Cosmos.DataTransfer.AzureBlobStorage.csproj", "{60ACD837-40BD-4596-832A-139CCBFA7EFE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CognitiveSearch", "CognitiveSearch", "{F745B535-C483-4894-8BA9-657DB1913D0B}"
+	ProjectSection(SolutionItems) = preProject
+		Extensions\CognitiveSearch\README.md = Extensions\CognitiveSearch\README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cosmos.DataTransfer.CognitiveSearchExtension", "Extensions\CognitiveSearch\Cosmos.DataTransfer.CognitiveSearchExtension\Cosmos.DataTransfer.CognitiveSearchExtension.csproj", "{37DBC3CB-F8F6-48F8-BFBA-07A27D2E9DD9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cosmos.DataTransfer.CognitiveSearchExtension.UnitTests", "Extensions\CognitiveSearch\Cosmos.DataTransfer.CognitiveSearchExtension.UnitTests\Cosmos.DataTransfer.CognitiveSearchExtension.UnitTests.csproj", "{B55A183D-E4D4-4095-8569-D361A6AA1D10}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Csv", "Csv", "{39930280-DA29-4814-837B-FA7F252EB3EC}"
+	ProjectSection(SolutionItems) = preProject
+		Extensions\Csv\README.md = Extensions\Csv\README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cosmos.DataTransfer.CsvExtension", "Extensions\Csv\Cosmos.DataTransfer.CsvExtension\Cosmos.DataTransfer.CsvExtension.csproj", "{6A3FB90C-B837-4724-A406-214D4CEA686F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cosmos.DataTransfer.CsvExtension.UnitTests", "Extensions\Csv\Cosmos.DataTransfer.CsvExtension.UnitTests\Cosmos.DataTransfer.CsvExtension.UnitTests.csproj", "{40AD8890-BD78-48F5-AE76-2C2FC6F15B7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BCBBAF22-0CB5-416B-8C80-03AB2FC4D0A0}"
+	ProjectSection(SolutionItems) = preProject
+		Contributing.md = Contributing.md
+		ExampleConfigs.md = ExampleConfigs.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cosmos.DataTransfer.PostgresqlExtension", "Extensions\PostgreSQL\Cosmos.DataTransfer.PostgresqlExtension.csproj", "{85820167-DB94-458B-B09B-9E823996C692}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PostgreSQL", "PostgreSQL", "{1B927C5F-50FC-42A6-BAF6-B00E6D760543}"
+	ProjectSection(SolutionItems) = preProject
+		Extensions\PostgreSQL\README.md = Extensions\PostgreSQL\README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cosmos.DataTransfer.MongoExtension", "Extensions\Mongo\Cosmos.DataTransfer.MongoExtension\Cosmos.DataTransfer.MongoExtension.csproj", "{31BC84E1-55E5-45AA-BFAC-90732F20588B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A164C7E5-E6FB-43B3-85B1-C67FFDFE330A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A164C7E5-E6FB-43B3-85B1-C67FFDFE330A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A164C7E5-E6FB-43B3-85B1-C67FFDFE330A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A164C7E5-E6FB-43B3-85B1-C67FFDFE330A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A3EE681-C7CD-4062-913B-737E6265CEF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A3EE681-C7CD-4062-913B-737E6265CEF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A3EE681-C7CD-4062-913B-737E6265CEF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A3EE681-C7CD-4062-913B-737E6265CEF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7339C831-B668-4CF9-951C-E2F4AE951996}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7339C831-B668-4CF9-951C-E2F4AE951996}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7339C831-B668-4CF9-951C-E2F4AE951996}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7339C831-B668-4CF9-951C-E2F4AE951996}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55355690-D898-4C75-818A-72655DB4495A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55355690-D898-4C75-818A-72655DB4495A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55355690-D898-4C75-818A-72655DB4495A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55355690-D898-4C75-818A-72655DB4495A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{688F9479-06FF-4B8F-9294-369D549C78FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{688F9479-06FF-4B8F-9294-369D549C78FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{688F9479-06FF-4B8F-9294-369D549C78FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{688F9479-06FF-4B8F-9294-369D549C78FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA03961C-4330-4ED9-963A-3B63FBC08ABB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA03961C-4330-4ED9-963A-3B63FBC08ABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA03961C-4330-4ED9-963A-3B63FBC08ABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA03961C-4330-4ED9-963A-3B63FBC08ABB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F31FADBA-BC78-4839-A9F5-8861695EC95E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F31FADBA-BC78-4839-A9F5-8861695EC95E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F31FADBA-BC78-4839-A9F5-8861695EC95E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F31FADBA-BC78-4839-A9F5-8861695EC95E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6EAC33B-9F7D-433B-9328-622FB8938C24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6EAC33B-9F7D-433B-9328-622FB8938C24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6EAC33B-9F7D-433B-9328-622FB8938C24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6EAC33B-9F7D-433B-9328-622FB8938C24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED1E375E-A5A3-47EA-A7D5-07344C7E152F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED1E375E-A5A3-47EA-A7D5-07344C7E152F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED1E375E-A5A3-47EA-A7D5-07344C7E152F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED1E375E-A5A3-47EA-A7D5-07344C7E152F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7A3910D-A7F6-4767-9A7A-19CFA4CCB7A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7A3910D-A7F6-4767-9A7A-19CFA4CCB7A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7A3910D-A7F6-4767-9A7A-19CFA4CCB7A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7A3910D-A7F6-4767-9A7A-19CFA4CCB7A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A020621-77E6-4DD1-B230-50A46B4BB2B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A020621-77E6-4DD1-B230-50A46B4BB2B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A020621-77E6-4DD1-B230-50A46B4BB2B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A020621-77E6-4DD1-B230-50A46B4BB2B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E4C4ABF-D8C2-4997-A719-E756483C8D63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E4C4ABF-D8C2-4997-A719-E756483C8D63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E4C4ABF-D8C2-4997-A719-E756483C8D63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E4C4ABF-D8C2-4997-A719-E756483C8D63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B83FEBC7-08B6-4C25-831A-EA0C08794F67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B83FEBC7-08B6-4C25-831A-EA0C08794F67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B83FEBC7-08B6-4C25-831A-EA0C08794F67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B83FEBC7-08B6-4C25-831A-EA0C08794F67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FAD9D89-2E41-4D65-8440-5C01885D9292}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FAD9D89-2E41-4D65-8440-5C01885D9292}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FAD9D89-2E41-4D65-8440-5C01885D9292}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FAD9D89-2E41-4D65-8440-5C01885D9292}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BA59E9C-0B45-426F-A672-61D40C3C4FB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BA59E9C-0B45-426F-A672-61D40C3C4FB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BA59E9C-0B45-426F-A672-61D40C3C4FB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BA59E9C-0B45-426F-A672-61D40C3C4FB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60ACD837-40BD-4596-832A-139CCBFA7EFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60ACD837-40BD-4596-832A-139CCBFA7EFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60ACD837-40BD-4596-832A-139CCBFA7EFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60ACD837-40BD-4596-832A-139CCBFA7EFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37DBC3CB-F8F6-48F8-BFBA-07A27D2E9DD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37DBC3CB-F8F6-48F8-BFBA-07A27D2E9DD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37DBC3CB-F8F6-48F8-BFBA-07A27D2E9DD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37DBC3CB-F8F6-48F8-BFBA-07A27D2E9DD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B55A183D-E4D4-4095-8569-D361A6AA1D10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B55A183D-E4D4-4095-8569-D361A6AA1D10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B55A183D-E4D4-4095-8569-D361A6AA1D10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B55A183D-E4D4-4095-8569-D361A6AA1D10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A3FB90C-B837-4724-A406-214D4CEA686F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A3FB90C-B837-4724-A406-214D4CEA686F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A3FB90C-B837-4724-A406-214D4CEA686F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A3FB90C-B837-4724-A406-214D4CEA686F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40AD8890-BD78-48F5-AE76-2C2FC6F15B7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40AD8890-BD78-48F5-AE76-2C2FC6F15B7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40AD8890-BD78-48F5-AE76-2C2FC6F15B7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40AD8890-BD78-48F5-AE76-2C2FC6F15B7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85820167-DB94-458B-B09B-9E823996C692}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85820167-DB94-458B-B09B-9E823996C692}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85820167-DB94-458B-B09B-9E823996C692}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85820167-DB94-458B-B09B-9E823996C692}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31BC84E1-55E5-45AA-BFAC-90732F20588B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31BC84E1-55E5-45AA-BFAC-90732F20588B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31BC84E1-55E5-45AA-BFAC-90732F20588B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31BC84E1-55E5-45AA-BFAC-90732F20588B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{55355690-D898-4C75-818A-72655DB4495A} = {84E51D21-FA45-4CCB-94BB-6B6066749A4A}
+		{688F9479-06FF-4B8F-9294-369D549C78FD} = {D0475879-F47F-4D12-9A43-812043CFFD22}
+		{CA03961C-4330-4ED9-963A-3B63FBC08ABB} = {CB41F880-D0A5-42C1-9571-479CF7E54D82}
+		{D0475879-F47F-4D12-9A43-812043CFFD22} = {A8A1CEAB-2D82-460C-9B86-74ABD17CD201}
+		{84E51D21-FA45-4CCB-94BB-6B6066749A4A} = {A8A1CEAB-2D82-460C-9B86-74ABD17CD201}
+		{CB41F880-D0A5-42C1-9571-479CF7E54D82} = {A8A1CEAB-2D82-460C-9B86-74ABD17CD201}
+		{F31FADBA-BC78-4839-A9F5-8861695EC95E} = {CB41F880-D0A5-42C1-9571-479CF7E54D82}
+		{F18E789A-D32D-48D3-B75F-1196D7215F74} = {A8A1CEAB-2D82-460C-9B86-74ABD17CD201}
+		{F6EAC33B-9F7D-433B-9328-622FB8938C24} = {F18E789A-D32D-48D3-B75F-1196D7215F74}
+		{ED1E375E-A5A3-47EA-A7D5-07344C7E152F} = {84E51D21-FA45-4CCB-94BB-6B6066749A4A}
+		{C7A3910D-A7F6-4767-9A7A-19CFA4CCB7A8} = {D0475879-F47F-4D12-9A43-812043CFFD22}
+		{2F075279-E8B0-4A6E-A8D9-2058B7DEC671} = {A8A1CEAB-2D82-460C-9B86-74ABD17CD201}
+		{7A020621-77E6-4DD1-B230-50A46B4BB2B1} = {2F075279-E8B0-4A6E-A8D9-2058B7DEC671}
+		{3E4C4ABF-D8C2-4997-A719-E756483C8D63} = {2F075279-E8B0-4A6E-A8D9-2058B7DEC671}
+		{2BD63BEE-CEE8-4FF3-8A2E-373D9F4E2FE8} = {A8A1CEAB-2D82-460C-9B86-74ABD17CD201}
+		{B83FEBC7-08B6-4C25-831A-EA0C08794F67} = {2BD63BEE-CEE8-4FF3-8A2E-373D9F4E2FE8}
+		{9627A42A-BEB0-4A39-B49C-C3C6D54E705A} = {A8A1CEAB-2D82-460C-9B86-74ABD17CD201}
+		{502197E4-F554-4B5B-9235-FBFE7E49EBEF} = {A8A1CEAB-2D82-460C-9B86-74ABD17CD201}
+		{8BA59E9C-0B45-426F-A672-61D40C3C4FB7} = {502197E4-F554-4B5B-9235-FBFE7E49EBEF}
+		{60ACD837-40BD-4596-832A-139CCBFA7EFE} = {9627A42A-BEB0-4A39-B49C-C3C6D54E705A}
+		{F745B535-C483-4894-8BA9-657DB1913D0B} = {A8A1CEAB-2D82-460C-9B86-74ABD17CD201}
+		{37DBC3CB-F8F6-48F8-BFBA-07A27D2E9DD9} = {F745B535-C483-4894-8BA9-657DB1913D0B}
+		{B55A183D-E4D4-4095-8569-D361A6AA1D10} = {F745B535-C483-4894-8BA9-657DB1913D0B}
+		{39930280-DA29-4814-837B-FA7F252EB3EC} = {A8A1CEAB-2D82-460C-9B86-74ABD17CD201}
+		{6A3FB90C-B837-4724-A406-214D4CEA686F} = {39930280-DA29-4814-837B-FA7F252EB3EC}
+		{40AD8890-BD78-48F5-AE76-2C2FC6F15B7E} = {39930280-DA29-4814-837B-FA7F252EB3EC}
+		{85820167-DB94-458B-B09B-9E823996C692} = {1B927C5F-50FC-42A6-BAF6-B00E6D760543}
+		{1B927C5F-50FC-42A6-BAF6-B00E6D760543} = {A8A1CEAB-2D82-460C-9B86-74ABD17CD201}
+		{31BC84E1-55E5-45AA-BFAC-90732F20588B} = {F18E789A-D32D-48D3-B75F-1196D7215F74}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {662B3F27-70D8-45E6-A1C0-1438A9C8A542}
+	EndGlobalSection
+EndGlobal

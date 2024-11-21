@@ -1,0 +1,31 @@
+name: Build and Test all .NET projects
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    name: Build and test .NET projects
+    runs-on: ubuntu-latest
+    container: mcr.microsoft.com/dotnet/sdk:6.0
+    steps:
+    - uses: actions/checkout@v3
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v2
+      with:
+        dotnet-version: 6.0.x
+    - name: Restore dependencies
+      run: dotnet restore
+    - name: Build
+      run: dotnet build --no-restore
+    - name: Test
+      run: dotnet test --no-build --verbosity normal
+
+    - name: Debug Build Artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: debug-build
+        path: /home/runner/work/data-migration-desktop-tool/data-migration-desktop-tool/Core/Cosmos.DataTransfer.Core/bin/Debug/net6.0 #path/to/artifact/ # or path/to/artifact  
